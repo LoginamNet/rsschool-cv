@@ -1,1 +1,2 @@
- Name: Aleksander Chuchev
+Name: Aleksander Chuchev
+email: loginamnet@gmail.com
