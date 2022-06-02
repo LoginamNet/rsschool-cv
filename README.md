@@ -1,3 +1,3 @@
 # rsschool-cv
-O, well, learning..
+O, well, learning..  
 https://loginamnet.github.io/rsschool-cv/cv
