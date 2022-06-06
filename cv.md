@@ -1,11 +1,15 @@
 ![avatar](assets/img/logo_img/cv-photo-circle.png)
 # Aleksander Chuchev
+
+
 ## Contact information
 - Location: Likino-Dulevo, Russia
 - Phone: +7 (926) 883-04-42
 - Email: loginamnet@gmail.com
 - Discord: [LoginamNet#5467](https://discordapp.com/users/LoginamNet#5467/)
 - GitHub: [LoginamNet](https://github.com/LoginamNet)
+
+
 ## About myself
 I always wanted to be a teacher, but the Russian education system quickly brought me down from heaven to earth. So I decided to work with the passion of my childhood - computers
 
@@ -19,6 +23,7 @@ I also like computer games, volleyball and cycling.
 - CSS
 - JavaScript (Basic)
 - Git/GitHub
+
 
 ## Code example
 ```
@@ -39,12 +44,18 @@ function countPositivesSumNegatives(input) {
   }
 }
 ```
+
+
 ## Experience
 At the moment, there is no direct experience in programming - most of the time I worked with computer hardware and networks. Nevertheless, I studied independently with the help of materials from the Internet and free entry-level courses. I have experience in creating a multi-page website on WordPress.
+
+
 ## Education
 + **University:** State University of Humanities and Technology, Faculty of Physics and Mathematics, Physics and mathematics teacher
 + **Courses**:
     - [HTML Academy](https://htmlacademy.ru/profile/loginamnet)
+
+
 ## Languages
 **Russian** - Native  
 **English** - A2 (Goin forward!)  
