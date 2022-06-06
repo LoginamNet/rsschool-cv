@@ -19,6 +19,7 @@ I also like computer games, volleyball and cycling.
 - CSS
 - JavaScript (Basic)
 - Git/GitHub
+
 ## Code example
 ```
 function countPositivesSumNegatives(input) {
