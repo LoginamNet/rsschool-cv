@@ -1,3 +1,4 @@
+![avatar](https://github.com/LoginamNet/rsschool-cv/blob/rsschool-cv-html/img/logo_img/cv-photo-circle.png?raw=true)
 # Aleksander Chuchev
 ## Contact information
 - Location: Likino-Dulevo, Russia
