@@ -54,30 +54,32 @@
           <section class="section" id="skills">
             <h2 class="section-title"><span class="h2-text">Skills</span></h2>
             <ul class="skills-list">
-                <li class="skills-item">HTML</li>
-                <li class="skills-item">CSS</li>
+                <li class="skills-item">HTML5</li>
+                <li class="skills-item">CSS3</li>
                 <li class="skills-item">JavaScript (Basic)</li>
                 <li class="skills-item">Git/GitHub</li>
             </ul>
           </section>
           <section class="section" id="code-example">
             <h2 class="section-title"><span class="h2-text">Code example</span></h2>
-            <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(255, 255, 255); color: rgb(0, 0, 0);"><span class="hljs-keyword" style="color: rgb(0, 0, 255);">function</span> countPositivesSumNegatives(<span class="hljs-keyword" style="color: rgb(0, 0, 255);">input</span>) {
-      
-                <span class="hljs-keyword" style="color: rgb(0, 0, 255);">if</span> (<span class="hljs-keyword" style="color: rgb(0, 0, 255);">input</span> == <span class="hljs-literal" style="color: rgb(163, 21, 21);">null</span> || <span class="hljs-keyword" style="color: rgb(0, 0, 255);">input</span><span class="hljs-variable" style="color: green;">.length</span> &lt; <span class="hljs-number">1</span>) {
-                  <span class="hljs-keyword" style="color: rgb(0, 0, 255);">return</span> [];
-                } <span class="hljs-keyword" style="color: rgb(0, 0, 255);">else</span> {
-              
-                  <span class="hljs-keyword" style="color: rgb(0, 0, 255);">let</span> posAmount = <span class="hljs-number">0</span>;
-                  <span class="hljs-keyword" style="color: rgb(0, 0, 255);">let</span> negSum = <span class="hljs-number">0</span>;
-              
-                  <span class="hljs-keyword" style="color: rgb(0, 0, 255);">for</span> (<span class="hljs-keyword" style="color: rgb(0, 0, 255);">let</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-keyword" style="color: rgb(0, 0, 255);">input</span><span class="hljs-variable" style="color: green;">.length</span>; i++) {
-                  <span class="hljs-keyword" style="color: rgb(0, 0, 255);">if</span> (<span class="hljs-keyword" style="color: rgb(0, 0, 255);">input</span>[i] &gt; <span class="hljs-number">0</span>) posAmount++;
-                  <span class="hljs-keyword" style="color: rgb(0, 0, 255);">else</span> <span class="hljs-keyword" style="color: rgb(0, 0, 255);">if</span> (<span class="hljs-keyword" style="color: rgb(0, 0, 255);">input</span>[i] &lt; <span class="hljs-number">0</span>) negSum += <span class="hljs-keyword" style="color: rgb(0, 0, 255);">input</span>[i];
+            <div class="code-container">
+              <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(255, 255, 255); color: rgb(0, 0, 0);"><span class="hljs-keyword" style="color: rgb(0, 0, 255);">function</span> countPositivesSumNegatives(<span class="hljs-keyword" style="color: rgb(0, 0, 255);">input</span>) {
+        
+                  <span class="hljs-keyword" style="color: rgb(0, 0, 255);">if</span> (<span class="hljs-keyword" style="color: rgb(0, 0, 255);">input</span> == <span class="hljs-literal" style="color: rgb(163, 21, 21);">null</span> || <span class="hljs-keyword" style="color: rgb(0, 0, 255);">input</span><span class="hljs-variable" style="color: green;">.length</span> &lt; <span class="hljs-number">1</span>) {
+                    <span class="hljs-keyword" style="color: rgb(0, 0, 255);">return</span> [];
+                  } <span class="hljs-keyword" style="color: rgb(0, 0, 255);">else</span> {
+                
+                    <span class="hljs-keyword" style="color: rgb(0, 0, 255);">let</span> posAmount = <span class="hljs-number">0</span>;
+                    <span class="hljs-keyword" style="color: rgb(0, 0, 255);">let</span> negSum = <span class="hljs-number">0</span>;
+                
+                    <span class="hljs-keyword" style="color: rgb(0, 0, 255);">for</span> (<span class="hljs-keyword" style="color: rgb(0, 0, 255);">let</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-keyword" style="color: rgb(0, 0, 255);">input</span><span class="hljs-variable" style="color: green;">.length</span>; i++) {
+                    <span class="hljs-keyword" style="color: rgb(0, 0, 255);">if</span> (<span class="hljs-keyword" style="color: rgb(0, 0, 255);">input</span>[i] &gt; <span class="hljs-number">0</span>) posAmount++;
+                    <span class="hljs-keyword" style="color: rgb(0, 0, 255);">else</span> <span class="hljs-keyword" style="color: rgb(0, 0, 255);">if</span> (<span class="hljs-keyword" style="color: rgb(0, 0, 255);">input</span>[i] &lt; <span class="hljs-number">0</span>) negSum += <span class="hljs-keyword" style="color: rgb(0, 0, 255);">input</span>[i];
+                    }
+                  <span class="hljs-keyword" style="color: rgb(0, 0, 255);">return</span> [posAmount, negSum]
                   }
-                <span class="hljs-keyword" style="color: rgb(0, 0, 255);">return</span> [posAmount, negSum]
-                }
-              }</pre>
+                }</pre>
+            </div>
           </section>
           <section class="section" id="experience">
             <h2 class="section-title"><span class="h2-text">Experience</span></h2>
@@ -87,7 +89,7 @@
             <h2 class="section-title"><span class="h2-text">Education</span></h2>
             <ul class="education-list">
                 <li class="education-item">University: State University of Humanities and Technology, Faculty of Physics and Mathematics, Physics and mathematics teacher</li>
-                <li class="skills-item">Courses:
+                <li class="education-item">Courses:
                     <ul class="courses-list">
                         <li class="courses-item"><a href="https://htmlacademy.ru/profile/loginamnet">HTML Academy</a></li>
                     </ul>
