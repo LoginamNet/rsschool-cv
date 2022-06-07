@@ -2,24 +2,26 @@ html {
     scroll-behavior: smooth; 
 }
 
-@media (max-width: 768px) {
-    .section {
-      width: 100%;
-    }
-}
-
 body {
     font-family: 'Roboto Mono', monospace;
     font-size: 16px;
     line-height: 1.5;
     margin: 0;
     padding: 0;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .container {
-    max-width: 1440px;
+    max-width: 1080px;
     margin: 0 auto;
+}
+
+.main-flex {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 h1 {
@@ -31,18 +33,15 @@ a {
     color: black;
 }
 
-
 .nav {
-    margin: 50px 0;
+    margin: 30px 0;
 }
 
-
 .nav-list {
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 50px;
+    justify-content: space-between;
     list-style: none;
     text-transform: uppercase;
 }
@@ -55,15 +54,34 @@ a {
 }
 
 .nav-link:hover {
-    box-shadow: 0 2px 0 0 red;
+    background-color: #110041;
+    color: #ffffff;
+    box-shadow: 0 2px 0 0 #e4f614;
 }
 
-main {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    width: 1080px;
+
+.h1-text,
+.h2-text {
+    position: relative;
+    padding: 5px;
+    background-color: #d3fdef;
+    color: #110041;
+}
+
+.h2-text {
+    transition: 0.3s;
+}
+
+
+.h1-text::after {
+    content: "";
+    position: absolute;
+    top: 45px;
+    left: 20px;
+    width: 100%;
+    height: 20px;
+    background-color: #e4f614;
+    z-index: -1;
 }
 
 .section {
@@ -72,11 +90,48 @@ main {
     padding: 30px;
 }
 
-.section:hover h2,
-.section:active h2 {
-    color: orangered;
+.section:hover .h2-text,
+.section:active .h2-text {
+    background-color: #e4f614;
+}
+
+footer {
+    background-color: #d3fdef;
+}
+
+.footer-features {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 20px 0;
+}
+
+
+.footer-img,
+.footer-year {
+    height: 50px;
+    margin: 10px;
 }
 
 .footer-img {
-    width: 90px;
+    transition: 0.3s;
+}
+
+.footer-img:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 480px) {
+    .section {
+      width: 100%;
+      padding: 15px 30px;
+    }
+
+    body {
+      font-size: 1.1em;
+    }
+
+    .nav-list {
+        justify-content: flex-start;
+    }
 }

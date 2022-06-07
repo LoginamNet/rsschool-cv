@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
  <head>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>LoginamNet CV</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -9,96 +10,112 @@
   <link rel="stylesheet" href="style.css">
  </head>
  <body>
-  <header>
-    <div class="container">
-        <nav class="nav">
-            <ul class="nav-list">
-            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-            <li class="nav-item"><a href="#summary" class="nav-link">About myself</a></li>
-            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-            <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
-            <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
-            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-            <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+    <header>
+      <div class="container">
+          <nav class="nav">
+              <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#summary" class="nav-link">About myself</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+              </ul>
+          </nav>
+        </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="main-flex">
+          <section class="section" id="avatar">
+            <img src="assets/img/logo_img/cv-photo-circle.png" alt="avatar">
+          </section>
+          <section class="section" id="name">
+            <h1 class="section-title"><span class="h1-text">Aleksander Chuchev</span></h1>
+            <p >Junior Front-end Developer (In future, i guess)</p>
+          </section>
+          <section class="section" id="contacts">
+            <h2 class="section-title"><span class="h2-text">Contact information</span></h2>
+            <ul class="contacts-list">
+                <li class="contacts-item">Location: Likino-Dulevo, Russia</li>
+                <li class="contacts-item">Phone: <a href="tel:+79268830442">+7 (926) 883-04-42</a></li>
+                <li class="contacts-item">Email: <a href="mailto:loginamnet@gmail.com">loginamnet@gmail.com</a></li>
+                <li class="contacts-item">Discord: <a href="https://discordapp.com/users/LoginamNet#5467/">LoginamNet#5467</a></li>
+                <li class="contacts-item">GitHub: <a href="https://github.com/LoginamNet">LoginamNet</a></li>
             </ul>
-        </nav>
-    </div> 
-  </header>
-  <main>
-      <section class="section" id="avatar">
-        <img src="assets/img/logo_img/cv-photo-circle.png" alt="avatar">
-      </section>
-      <section class="section" id="contacts">
-        <h1 class="section-title">Aleksander Chuchev</h1>
-        <h2 class="section-title">Contact information</h2>
-        <ul class="contacts-list">
-            <li class="contacts-item">Location: Likino-Dulevo, Russia</li>
-            <li class="contacts-item">Phone: +7 (926) 883-04-42</li>
-            <li class="contacts-item">Email: loginamnet@gmail.com</li>
-            <li class="contacts-item">Discord: LoginamNet#5467</li>
-            <li class="contacts-item">GitHub: LoginamNet</li>
-        </ul>
-      </section>
-      <section class="section" id="summary">
-        <h2 class="section-title">About myself</h2>
-        <p>I always wanted to be a teacher, but the Russian education system quickly brought me down from heaven to earth. So I decided to work with the passion of my childhood - computers. I've been working as a system administrator for seven years, fixing computer hardware and dealing with networks. But one day I had to develop a website. Without having any experience.
-        <p>However, it was since then that I began to wonder how all this works outside of special services for creating websites. And here I am!</p>
-        <p>I also like computer games, volleyball and cycling.</p>
-      </section>
-      <section class="section" id="skills">
-        <h2 class="section-title">Skills</h2>
-        <ul class="skills-list">
-            <li class="skills-item">HTML</li>
-            <li class="skills-item">CSS</li>
-            <li class="skills-item">JavaScript (Basic)</li>
-            <li class="skills-item">Git/GitHub</li>
-        </ul>
-      </section>
-      <section class="section" id="code-example">
-        <h2 class="section-title">Code example</h2>
-        <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(255, 255, 255); color: rgb(0, 0, 0);"><span class="hljs-keyword" style="color: rgb(0, 0, 255);">function</span> countPositivesSumNegatives(<span class="hljs-keyword" style="color: rgb(0, 0, 255);">input</span>) {
-  
-            <span class="hljs-keyword" style="color: rgb(0, 0, 255);">if</span> (<span class="hljs-keyword" style="color: rgb(0, 0, 255);">input</span> == <span class="hljs-literal" style="color: rgb(163, 21, 21);">null</span> || <span class="hljs-keyword" style="color: rgb(0, 0, 255);">input</span><span class="hljs-variable" style="color: green;">.length</span> &lt; <span class="hljs-number">1</span>) {
-              <span class="hljs-keyword" style="color: rgb(0, 0, 255);">return</span> [];
-            } <span class="hljs-keyword" style="color: rgb(0, 0, 255);">else</span> {
-          
-              <span class="hljs-keyword" style="color: rgb(0, 0, 255);">let</span> posAmount = <span class="hljs-number">0</span>;
-              <span class="hljs-keyword" style="color: rgb(0, 0, 255);">let</span> negSum = <span class="hljs-number">0</span>;
-          
-              <span class="hljs-keyword" style="color: rgb(0, 0, 255);">for</span> (<span class="hljs-keyword" style="color: rgb(0, 0, 255);">let</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-keyword" style="color: rgb(0, 0, 255);">input</span><span class="hljs-variable" style="color: green;">.length</span>; i++) {
-               <span class="hljs-keyword" style="color: rgb(0, 0, 255);">if</span> (<span class="hljs-keyword" style="color: rgb(0, 0, 255);">input</span>[i] &gt; <span class="hljs-number">0</span>) posAmount++;
-               <span class="hljs-keyword" style="color: rgb(0, 0, 255);">else</span> <span class="hljs-keyword" style="color: rgb(0, 0, 255);">if</span> (<span class="hljs-keyword" style="color: rgb(0, 0, 255);">input</span>[i] &lt; <span class="hljs-number">0</span>) negSum += <span class="hljs-keyword" style="color: rgb(0, 0, 255);">input</span>[i];
-              }
-            <span class="hljs-keyword" style="color: rgb(0, 0, 255);">return</span> [posAmount, negSum]
-            }
-          }</pre>
-      </section>
-      <section class="section" id="experience">
-        <h2 class="section-title">Experience</h2>
-        <p>At the moment, there is no direct experience in programming - most of the time I worked with computer hardware and networks. Nevertheless, I studied independently with the help of materials from the Internet and free entry-level courses. I have experience in creating a multi-page website on WordPress.</p>
-      </section>
-      <section class="section" id="education">
-        <h2 class="section-title">Education</h2>
-        <ul class="education-list">
-            <li class="education-item">University: State University of Humanities and Technology, Faculty of Physics and Mathematics, Physics and mathematics teacher</li>
-            <li class="skills-item">Courses:
-                <ul class="courses-list">
-                    <li class="courses-item">HTML Academy</li>
-                </ul>
-            </li>
-        </ul>
-      </section>
-      <section class="section" id="languages">
-        <h2 class="section-title">Languages</h2>
-        <p>Russian - Native<br>
-           English - A2 (Goin forward!)<br>
-           Spanish - A2 (Going, but not so fast)</p>
-      </section>
-  </main>
-  <footer>
-    <div class="container">
-      <img class="footer-img" id="rs-logo" src="assets/img/logo_img/rs_school_js.svg" alt="rss-logo">
-    </div>
-  </footer>
+          </section>
+          <section class="section" id="summary">
+            <h2 class="section-title"><span class="h2-text">About myself</span></h2>
+            <p>I always wanted to be a teacher, but the Russian education system quickly brought me down from heaven to earth. So I decided to work with the passion of my childhood - computers. I've been working as a system administrator for seven years, fixing computer hardware and dealing with networks. But one day I had to develop a website. Without having any experience.
+            <p>However, it was since then that I began to wonder how all this works outside of special services for creating websites. And here I am!</p>
+            <p>I also like computer games, volleyball and cycling.</p>
+          </section>
+          <section class="section" id="skills">
+            <h2 class="section-title"><span class="h2-text">Skills</span></h2>
+            <ul class="skills-list">
+                <li class="skills-item">HTML</li>
+                <li class="skills-item">CSS</li>
+                <li class="skills-item">JavaScript (Basic)</li>
+                <li class="skills-item">Git/GitHub</li>
+            </ul>
+          </section>
+          <section class="section" id="code-example">
+            <h2 class="section-title"><span class="h2-text">Code example</span></h2>
+            <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(255, 255, 255); color: rgb(0, 0, 0);"><span class="hljs-keyword" style="color: rgb(0, 0, 255);">function</span> countPositivesSumNegatives(<span class="hljs-keyword" style="color: rgb(0, 0, 255);">input</span>) {
+      
+                <span class="hljs-keyword" style="color: rgb(0, 0, 255);">if</span> (<span class="hljs-keyword" style="color: rgb(0, 0, 255);">input</span> == <span class="hljs-literal" style="color: rgb(163, 21, 21);">null</span> || <span class="hljs-keyword" style="color: rgb(0, 0, 255);">input</span><span class="hljs-variable" style="color: green;">.length</span> &lt; <span class="hljs-number">1</span>) {
+                  <span class="hljs-keyword" style="color: rgb(0, 0, 255);">return</span> [];
+                } <span class="hljs-keyword" style="color: rgb(0, 0, 255);">else</span> {
+              
+                  <span class="hljs-keyword" style="color: rgb(0, 0, 255);">let</span> posAmount = <span class="hljs-number">0</span>;
+                  <span class="hljs-keyword" style="color: rgb(0, 0, 255);">let</span> negSum = <span class="hljs-number">0</span>;
+              
+                  <span class="hljs-keyword" style="color: rgb(0, 0, 255);">for</span> (<span class="hljs-keyword" style="color: rgb(0, 0, 255);">let</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-keyword" style="color: rgb(0, 0, 255);">input</span><span class="hljs-variable" style="color: green;">.length</span>; i++) {
+                  <span class="hljs-keyword" style="color: rgb(0, 0, 255);">if</span> (<span class="hljs-keyword" style="color: rgb(0, 0, 255);">input</span>[i] &gt; <span class="hljs-number">0</span>) posAmount++;
+                  <span class="hljs-keyword" style="color: rgb(0, 0, 255);">else</span> <span class="hljs-keyword" style="color: rgb(0, 0, 255);">if</span> (<span class="hljs-keyword" style="color: rgb(0, 0, 255);">input</span>[i] &lt; <span class="hljs-number">0</span>) negSum += <span class="hljs-keyword" style="color: rgb(0, 0, 255);">input</span>[i];
+                  }
+                <span class="hljs-keyword" style="color: rgb(0, 0, 255);">return</span> [posAmount, negSum]
+                }
+              }</pre>
+          </section>
+          <section class="section" id="experience">
+            <h2 class="section-title"><span class="h2-text">Experience</span></h2>
+            <p>At the moment, there is no direct experience in programming - most of the time I worked with computer hardware and networks. Nevertheless, I studied independently with the help of materials from the Internet and free entry-level courses. I have experience in creating a multi-page website on WordPress.</p>
+          </section>
+          <section class="section" id="education">
+            <h2 class="section-title"><span class="h2-text">Education</span></h2>
+            <ul class="education-list">
+                <li class="education-item">University: State University of Humanities and Technology, Faculty of Physics and Mathematics, Physics and mathematics teacher</li>
+                <li class="skills-item">Courses:
+                    <ul class="courses-list">
+                        <li class="courses-item"><a href="https://htmlacademy.ru/profile/loginamnet">HTML Academy</a></li>
+                    </ul>
+                </li>
+            </ul>
+          </section>
+          <section class="section" id="languages">
+            <h2 class="section-title"><span class="h2-text">Languages</span></h2>
+            <p>Russian - Native<br>
+              English - A2 (Goin forward!)<br>
+              Spanish - A2 (Going, but not so fast)</p>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer-features">
+          <div class="footer-icons">
+            <a href="https://rs.school/js/"><img class="footer-img" id="rs-logo" src="assets/img/logo_img/rs_school_js.svg" alt="rss-logo"></a>
+            <a href="https://discordapp.com/users/LoginamNet#5467/"><img class="footer-img" id="discord-logo" src="assets/img/logo_img/discord_icon.svg" alt="discord-logo"></a>
+            <a href="https://github.com/LoginamNet"><img class="footer-img" id="github-logo" src="assets/img/logo_img/github_icon.svg" alt="github-logo"></a>
+          </div>
+          <div class="footer-year">
+            <p>2022</p>
+          </div>
+        </div>
+      </div>
+    </footer>
  </body>
 </html>
