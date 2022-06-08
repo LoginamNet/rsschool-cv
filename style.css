@@ -63,7 +63,7 @@ a {
 
 .main-flex {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -71,6 +71,10 @@ a {
     box-sizing: border-box;
     width: 50%;
     padding: 20px 30px;
+}
+
+.div-section {
+    width: 100%;
 }
 
 /*Avatar image*/
@@ -93,12 +97,16 @@ h1 {
     color: #110041;
 }
 
+.h1-text {
+    box-shadow: 10px 10px 0 0 #e4f614;
+}
+
 .h2-text {
     transition: 0.3s;
 }
 
 
-.h1-text::after {
+/*.h1-text::after {
     content: "";
     position: absolute;
     top: 45px;
@@ -107,7 +115,7 @@ h1 {
     height: 20px;
     background-color: #e4f614;
     z-index: -1;
-}
+}*/
 
 
 .section:hover .h2-text,
@@ -132,8 +140,18 @@ h1 {
 .education-item,
 .courses-item {
     position: relative;
-    padding-left: 30px;
+    padding-left: 30px;S
     margin-bottom: 5px;
+}
+
+.progects-item {
+    margin-top: 10px;
+}
+
+.project-description {
+    margin: 10px 0 0 0;
+    padding-left: 10px;
+    border-left: 5px solid #d3fdef;
 }
 
 .contacts-item::before,
@@ -161,6 +179,7 @@ h1 {
 .contacts-item:hover a,
 .contacts-item:hover::before,
 .language-item:hover::before,
+.progects-item:hover a,
 .education-item:first-child:hover::before,
 .courses-item:hover a,
 .courses-item:hover::before {
@@ -185,7 +204,7 @@ h1 {
 }
 
 .skills-item:hover {
-    border: 1px solid #e4f614;
+    box-shadow: 2px 2px 0 0 #e4f614;
     background-color: #110041;
     color: #ffffff;
 }
@@ -211,7 +230,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: center;
-    margin: 20px 0;
+    margin: 20px 20px;
 }
 
 
@@ -230,29 +249,35 @@ footer {
 }
 
 .footer-year {
+    vertical-align: middle;
     color: #ffffff;
 }
 
 /*Adaptive----------------------------------------*/
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     .section {
       width: 100%;
       padding: 15px 30px;
-    }
-
-    body {
-      font-size: 1.1em;
     }
 }
 
 @media (max-width: 480px) {  
 
-      .section {
+    .section {
         padding: 10px 30px;
-      }
+    }
 
-      .nav-list {
-        justify-content: flex-start;
+    .nav-list {
+        justify-content: space-evenly;
+    }
+
+    .footer-features {
+        justify-content: center;
+    }
+
+    .footer-img,
+    .footer-year {
+        height: 33px;
     }
 }
