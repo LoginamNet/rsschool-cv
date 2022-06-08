@@ -208,6 +208,7 @@ footer {
 
 .footer-features {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-content: center;
     margin: 20px 0;
@@ -234,7 +235,7 @@ footer {
 
 /*Adaptive----------------------------------------*/
 
-@media (max-width: 480px) {
+@media (max-width: 1024px) {
     .section {
       width: 100%;
       padding: 15px 30px;
@@ -243,8 +244,15 @@ footer {
     body {
       font-size: 1.1em;
     }
+}
 
-    .nav-list {
+@media (max-width: 480px) {  
+
+      .section {
+        padding: 10px 30px;
+      }
+
+      .nav-list {
         justify-content: flex-start;
     }
 }
