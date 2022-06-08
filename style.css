@@ -25,6 +25,7 @@ body {
 a {
     color: black;
     text-decoration-color: #110041;
+    transition: 0.3s;
 }
 
 /*Header elements----------------------------------------*/
@@ -160,7 +161,8 @@ h1 {
 .contacts-item:hover a,
 .contacts-item:hover::before,
 .language-item:hover::before,
-.education-item:hover::before,
+.education-item:first-child:hover::before,
+.courses-item:hover a,
 .courses-item:hover::before {
     background-color: #110041;
     color: #ffffff;
@@ -191,7 +193,7 @@ h1 {
 /*Code example section*/
 
 .code-container {
-    padding: 10px;
+    padding: 0 15px;
     background-color: #f7f8fa;
     border: 1px solid lightgrey;
     border-radius: 5px;
