@@ -67,8 +67,12 @@
             <dl class="projects-list">
                 <dt class="progects-item"><a href="https://loginamnet.github.io/rsschool-cv/">This CV</a></dt>
                   <dd class="project-description">The first assignment at The Rolling Scopes School.</dd>
-                <dt class="progects-item"><a href="https://loginamnet.github.io/popup-test/">PopUp</a></dt>
-                  <dd class="project-description">Creating a pop-up based on my friend's layout in Figma. Caution! There is no adaptation for mobile devices!</dd>
+            </dl>
+            <dl class="projects-list">    
+                  <dt class="progects-item"><a href="https://loginamnet.github.io/popup-test/">PopUp</a></dt>
+                    <dd class="project-description">Creating a pop-up based on my friend's layout in Figma. Caution! There is no adaptation for mobile devices!</dd>
+            </dl>
+            <dl class="projects-list">       
                 <dt class="progects-item"><a href="https://kpni.ru">kpni.ru</a></dt>
                   <dd class="project-description">The first experience of creating a website using WordPress</dd>
             </dl>
@@ -76,22 +80,23 @@
           <section class="section" id="code-example">
             <h2 class="section-title"><span class="h2-text">Code example</span></h2>
             <div class="code-container">
-              <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; color: rgb(0, 0, 0);"><span class="hljs-keyword" style="color: rgb(0, 0, 255);">function</span> countPositivesSumNegatives(<span class="hljs-keyword" style="color: rgb(0, 0, 255);">input</span>) {
+<!--Code-example section----------------------------------------------------------------------------------------------------->
+<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; color: rgb(0, 0, 0);"><span class="code-keyword">function</span> countPositivesSumNegatives(<span class="code-keyword">input</span>) {
         
-                  <span class="hljs-keyword" style="color: rgb(0, 0, 255);">if</span> (<span class="hljs-keyword" style="color: rgb(0, 0, 255);">input</span> == <span class="hljs-literal" style="color: rgb(163, 21, 21);">null</span> || <span class="hljs-keyword" style="color: rgb(0, 0, 255);">input</span><span class="hljs-variable" style="color: green;">.length</span> &lt; <span class="hljs-number">1</span>) {
-                    <span class="hljs-keyword" style="color: rgb(0, 0, 255);">return</span> [];
-                  } <span class="hljs-keyword" style="color: rgb(0, 0, 255);">else</span> {
-                
-                    <span class="hljs-keyword" style="color: rgb(0, 0, 255);">let</span> posAmount = <span class="hljs-number">0</span>;
-                    <span class="hljs-keyword" style="color: rgb(0, 0, 255);">let</span> negSum = <span class="hljs-number">0</span>;
-                
-                    <span class="hljs-keyword" style="color: rgb(0, 0, 255);">for</span> (<span class="hljs-keyword" style="color: rgb(0, 0, 255);">let</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-keyword" style="color: rgb(0, 0, 255);">input</span><span class="hljs-variable" style="color: green;">.length</span>; i++) {
-                    <span class="hljs-keyword" style="color: rgb(0, 0, 255);">if</span> (<span class="hljs-keyword" style="color: rgb(0, 0, 255);">input</span>[i] &gt; <span class="hljs-number">0</span>) posAmount++;
-                    <span class="hljs-keyword" style="color: rgb(0, 0, 255);">else</span> <span class="hljs-keyword" style="color: rgb(0, 0, 255);">if</span> (<span class="hljs-keyword" style="color: rgb(0, 0, 255);">input</span>[i] &lt; <span class="hljs-number">0</span>) negSum += <span class="hljs-keyword" style="color: rgb(0, 0, 255);">input</span>[i];
-                    }
-                  <span class="hljs-keyword" style="color: rgb(0, 0, 255);">return</span> [posAmount, negSum]
-                  }
-                }</pre>
+    <span class="code-keyword">if</span> (input == <span class="code-literal">null</span> || input<span class="code-variable">.length</span> &lt; <span class="code-number">1</span>) {
+      <span class="code-keyword">return</span> [];
+    } <span class="code-keyword">else</span> {
+      <span class="code-keyword">let</span> posAmount = <span class="code-number">0</span>;
+      <span class="code-keyword">let</span> negSum = <span class="code-number">0</span>;
+  
+      <span class="code-keyword">for</span> (<span class="code-keyword">let</span> i = <span class="code-number">0</span>; i &lt; <span class="code-keyword">input</span><span class="hljs-variable" style="color: green;">.length</span>; i++) {
+        <span class="code-keyword">if</span> (<span class="code-keyword">input</span>[i] &gt; <span class="code-number">0</span>) posAmount++;
+        <span class="code-keyword">else</span> <span class="code-keyword">if</span> (<span class="code-keyword">input</span>[i] &lt; <span class="code-number">0</span>) negSum += <span class="code-keyword">input</span>[i];}
+    <span class="code-keyword">return</span> [posAmount, negSum]
+    }
+}
+</pre>
+<!--Code-example section----------------------------------------------------------------------------------------------------->
             </div>
           </section>
           <section class="section" id="experience">
