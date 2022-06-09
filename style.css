@@ -30,6 +30,26 @@ a {
 
 /*Header elements----------------------------------------*/
 
+/*Avatar image*/
+
+#avatar {
+    display: flex;
+    align-items: flex-end;
+    background-color: #110041;
+}
+
+#avatar img {
+    width: 50%;    
+}
+
+#avatar .avatar-text {
+    background: #ffffff;
+    margin: 20px;
+    padding: 15px;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
 /*Navigation menu*/
 
 .nav {
@@ -73,13 +93,11 @@ a {
     padding: 20px 30px;
 }
 
-.div-section {
-    width: 100%;
+#avatar {
+    padding: 0;
 }
 
-/*Avatar image*/
-
-#avatar img {
+.div-section {
     width: 100%;
 }
 
@@ -204,9 +222,9 @@ h1 {
 }
 
 .skills-item:hover {
-    box-shadow: 2px 2px 0 0 #e4f614;
-    background-color: #110041;
+    background: #110041;
     color: #ffffff;
+    box-shadow: 2px 2px 0 0 #e4f614;
 }
 
 /*Code example section*/
@@ -295,5 +313,13 @@ footer {
     .footer-img,
     .footer-year {
         height: 33px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    #avatar {
+        flex-direction: column-reverse;
+        align-items: flex-start;
     }
 }
