@@ -179,7 +179,7 @@ h1 {
 .contacts-item:hover a,
 .contacts-item:hover::before,
 .language-item:hover::before,
-.progects-item:hover a,
+.projects-list:hover a,
 .education-item:first-child:hover::before,
 .courses-item:hover a,
 .courses-item:hover::before {
@@ -216,6 +216,22 @@ h1 {
     background-color: #f7f8fa;
     border: 1px solid lightgrey;
     border-radius: 5px;
+}
+
+.code-number {
+    color: orange;
+}
+
+.code-keyword {
+    color: blue;
+}
+
+.code-literal {
+    color: orangered;
+}
+
+.code-variable {
+    color: green;
 }
 
 /*Footer elements----------------------------------------*/
