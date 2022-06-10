@@ -25,6 +25,15 @@ I also like computer games, volleyball and cycling.
 - Git/GitHub
 
 
+## Projects
++ [CV](https://loginamnet.github.io/rsschool-cv/)  
+The first assignment at The Rolling Scopes School.
++ [PopUp](https://loginamnet.github.io/popup-test/)  
+Creating a pop-up based on my friend's layout in Figma. Caution! There is no adaptation for mobile devices!
++ [kpni.ru](https://kpni.ru)  
+The first experience of creating a website using WordPress
+
+
 ## Code example
 ```
 function countPositivesSumNegatives(input) {
@@ -57,6 +66,6 @@ At the moment, there is no direct experience in programming - most of the time I
 
 
 ## Languages
-**Russian** - Native  
-**English** - A2 (Going forward!)  
-**Spanish** - A2 (Going, but not so fast)
++ **Russian** - Native  
++ **English** - A2 (Going forward!)  
++ **Spanish** - A2 (Going, but not so fast)
