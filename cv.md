@@ -60,7 +60,9 @@ function countPositivesSumNegatives(input) {
 
 
 ## Experience
-At the moment, there is no direct experience in programming - most of the time I worked with computer hardware and networks. Nevertheless, I studied independently with the help of materials from the Internet and free entry-level courses. I have experience in creating a multi-page website on WordPress.
+Most of the time I worked with computer hardware and networks. Nevertheless, I studied independently with the help of materials from the Internet and free entry-level courses. I have experience in creating a multi-page website on WordPress.
+
+Finished RS School Pre-School 2022Q2, completing all the tasks. It wasn't easy, but it was fascinating and interesting.
 
 
 ## Education
