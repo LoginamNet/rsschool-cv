@@ -32,6 +32,10 @@ The first assignment at The Rolling Scopes School.
 Creating a pop-up based on my friend's layout in Figma. Caution! There is no adaptation for mobile devices!
 + [kpni.ru](https://kpni.ru)  
 The first experience of creating a website using WordPress
++ [Momentum](https://rolling-scopes-school.github.io/loginamnet-JSFEPRESCHOOL2022Q2/momentum/)  
+Attempt to recreate Momentum app within the scope of the task in RS School Pre-School 2022Q2
++ [Eldritch Horror](https://rolling-scopes-school.github.io/loginamnet-JSFEPRESCHOOL2022Q2/codejam-eldritch)  
+The final task in RS School Pre-School 2022Q2
 
 
 ## Code example
@@ -56,13 +60,16 @@ function countPositivesSumNegatives(input) {
 
 
 ## Experience
-At the moment, there is no direct experience in programming - most of the time I worked with computer hardware and networks. Nevertheless, I studied independently with the help of materials from the Internet and free entry-level courses. I have experience in creating a multi-page website on WordPress.
+Most of the time I worked with computer hardware and networks. Nevertheless, I studied independently with the help of materials from the Internet and free entry-level courses. I have experience in creating a multi-page website on WordPress.
+
+Finished RS School Pre-School 2022Q2, completing all the tasks. It wasn't easy, but it was fascinating and interesting.
 
 
 ## Education
 + **University:** State University of Humanities and Technology, Faculty of Physics and Mathematics, Physics and mathematics teacher
 + **Courses**:
     - [HTML Academy](https://htmlacademy.ru/profile/loginamnet)
+    - [RS School Pre-School 2022Q2](https://app.rs.school/certificate/9u9kffzp)
 
 
 ## Languages
