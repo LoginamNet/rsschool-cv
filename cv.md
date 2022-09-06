@@ -67,6 +67,7 @@ At the moment, there is no direct experience in programming - most of the time I
 + **University:** State University of Humanities and Technology, Faculty of Physics and Mathematics, Physics and mathematics teacher
 + **Courses**:
     - [HTML Academy](https://htmlacademy.ru/profile/loginamnet)
+    - [RS School Pre-School 2022Q2](https://app.rs.school/certificate/9u9kffzp)
 
 
 ## Languages
