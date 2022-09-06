@@ -32,6 +32,10 @@ The first assignment at The Rolling Scopes School.
 Creating a pop-up based on my friend's layout in Figma. Caution! There is no adaptation for mobile devices!
 + [kpni.ru](https://kpni.ru)  
 The first experience of creating a website using WordPress
++ [Momentum](https://rolling-scopes-school.github.io/loginamnet-JSFEPRESCHOOL2022Q2/momentum/)  
+Attempt to recreate Momentum app within the scope of the task in RS School Pre-School 2022Q2
++ [Eldritch Horror](https://rolling-scopes-school.github.io/loginamnet-JSFEPRESCHOOL2022Q2/codejam-eldritch)  
+The final task in RS School Pre-School 2022Q2
 
 
 ## Code example
